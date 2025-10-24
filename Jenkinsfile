@@ -7,8 +7,8 @@ pipeline {
     DEV_REPO = "${DOCKER_USER}/devops-build-dev"
     PROD_REPO = "${DOCKER_USER}/devops-build-prod"
     
-    AWS_IP = "13.233.206.73"
-    AWS_SSH_CREDS = "ec2-ssh-key"
+    DEVOPS_IP = "101.0.63.33"
+    DEVOPS_SSH_CREDS = "ec2-ssh-key"
   }
 
   stages {
