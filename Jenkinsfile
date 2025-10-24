@@ -7,7 +7,7 @@ pipeline {
     DEV_REPO = "${DOCKER_USER}/devops-build-dev"
     PROD_REPO = "${DOCKER_USER}/devops-build-prod"
     
-    DEVOPS_IP = "101.0.63.33"
+    DEVOPS_IP = "35.154.114.180"
     DEVOPS_SSH_CREDS = "ec2-ssh-key"
   }
 
