@@ -78,7 +78,7 @@ pipeline {
     stage('Push & Deploy Prod') {
       when { 
         expression { 
-          return (env.BRANCH_NAME == 'main' || env.BRANCH_NAME == 'master' || env.GIT_BRANCH == 'origin/main')
+          return (env.BRANCH_NAME == 'main'
         }
       }
       steps {

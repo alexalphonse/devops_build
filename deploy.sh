@@ -7,7 +7,7 @@ DOCKER_USER="alexalphonse"
 docker rm -f react-app || true
 
 # Pull latest image from DockerHub dev repo
-docker pull $DOCKER_USER/devops-build-dev:latest
+docker pull $DOCKER_USER/devops-build-prod:latest
 
 # Run new container
-docker run -d -p 80:80 --name react-app $DOCKER_USER/devops-build-dev:latest
+docker run -d -p 80:80 --name react-app $DOCKER_USER/devops-build-prod:latest
