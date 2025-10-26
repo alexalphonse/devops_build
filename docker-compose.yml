@@ -1,17 +1,7 @@
 version: '3.8'
 
 services:
-  # Development Environment - React App
-  react-app:
-    image: alexalphonse/devops-build-dev:latest
-    ports:
-      - "80:80"
-    container_name: react-app
-    restart: unless-stopped
-    networks:
-      - app-network
-
-  # Production Environment - React App  
+# Production Environment - React App  
   react-app-prod:
     image: alexalphonse/devops-build-prod:latest
     ports:
