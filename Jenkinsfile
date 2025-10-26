@@ -6,7 +6,7 @@ pipeline {
     DOCKERHUB_CREDENTIALS_ID = "docker-hub-creds"
     DEV_REPO = "${DOCKER_USER}/devops-build-dev"
     
-    DEVOPS_IP = "43.204.130.117"
+    DEVOPS_IP = "ec2-43-204-130-117.ap-south-1.compute.amazonaws.com"
     DEVOPS_SSH_CREDS = "ec2-ssh-key"
   }
 
