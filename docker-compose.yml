@@ -11,16 +11,6 @@ services:
     networks:
       - app-network
 
-  # Production Environment - React App  
-  react-app-prod:
-    image: alexalphonse/devops-build-prod:latest
-    ports:
-      - "80:80"
-    container_name: react-app-prod
-    restart: unless-stopped
-    networks:
-      - app-network
-
 networks:
   app-network:
     driver: bridge
