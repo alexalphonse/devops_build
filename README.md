@@ -12,5 +12,5 @@ https://github.com/sriram-R-krishnan/devops-build
 
 ### Dockerize the application
 
-<imgsrc="images/dockerfile_dev.png" width="300" align="center">
+<img src="images/dockerfile_dev.png" width="300" align="center">
 
