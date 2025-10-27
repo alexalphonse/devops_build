@@ -5,7 +5,7 @@
 ### clone the repo
 
 ```
-https://github.com/sriram-R-krishnan/devops-build
+git clone https://github.com/sriram-R-krishnan/devops-build
 
 ```
 ## Step 02
