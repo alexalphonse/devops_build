@@ -94,3 +94,9 @@ git push origin dev
 
 ### setup a monitoring stack to monitor the health status
 <img src="images/grafana.png" width="500" align="center">
+
+## Step 15
+
+### application output
+<img src="images/application_output.png" width="500" align="center">
+
